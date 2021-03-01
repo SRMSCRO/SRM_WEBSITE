@@ -1,3 +1,16 @@
+$(document).ready(function() {
+    $("#admission-slider").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:true
+    });
+});
+
+
 (function(d, m){
     var kommunicateSettings =
         {"appId":"3cd244ecc29389ece6bd830aeb6ae6df5","popupWidget":true,"automaticChatOpenOnNavigation":true};
