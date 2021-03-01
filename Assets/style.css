@@ -152,6 +152,73 @@ li {
   height: 50vh;
 }
 
+.news-container {
+    margin-top: 250px;
+    z-index: 1;
+    height: 200px;
+    background-color: #fff;
+}
+
+.news-container-blueTop {
+    height: 20px;
+    background-color: #2f77be;
+    margin-bottom: 20px;
+}
+
+.news-container-links {
+    height: 60px;
+    box-shadow: 0px 0px 30px -20px #1018206b;
+    background-color: #fff;
+    text-align: left;
+}
+
+#news-slider {
+    overflow: hidden;
+}
+
+#news-slider .card {
+    margin-left: 30px;
+    text-align: left;
+    z-index: 8;
+    height: 150px;
+    overflow: hidden;
+    border: 0;
+    box-shadow: 10px 0px 10px -12px #1018201e;
+}
+
+#news-slider .card-title{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #101820;
+}
+
+#news-slider .card-text {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #77a4d1;
+}
+
+#news-slider .card::before{
+    all: unset;
+}
+
+.news-container-links>* {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.news-container-links a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #101820;
+}
+
+.news-container-links .fa-link {
+    color: #2f77be;
+    font-size: 20px;
+}
+
 
 
 
@@ -276,7 +343,7 @@ li {
 .underline {
   height: 3px;
   background-color: white;
-  width: 200px;
+  width: 200px !important;
   margin: auto;
   margin-bottom: 80px;
 }
@@ -287,7 +354,7 @@ li {
 
 .viewMore {
   height: 90px;
-  width: 90px;
+  width: 90px !important;
   position: absolute;
   right: 100px;
   border-radius: 50%;
