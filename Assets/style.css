@@ -1,13 +1,16 @@
-body{
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
+ 
 
 .vh100 {
-  height: 100vh;
+  height: 117vh;
 }
 
 .vh80 {
-  height: 60vh;
+  height: 85vh;
 }
 
 .textLeft {
@@ -407,7 +410,10 @@ padding-bottom: 10px;
 /* ########### */
 
 .card {
-  height: 350px;
+  height: 426px;
+  width: 326px;
+  margin: auto;
+  border-radius: 26px;
   overflow: hidden;
 }
 
@@ -588,3 +594,21 @@ footer {
 #research-slider .card {
   margin: 15px;
 }
+
+
+
+ 
+@media (max-width: 575.98px) { 
+  .justify-content-end
+   {
+    justify-content: center;
+}
+
+}
+
+ 
+@media (max-width: 767.98px) { ... }
+
+ @media (max-width: 991.98px) { ... }
+
+ @media (max-width: 1199.98px) { ... }
