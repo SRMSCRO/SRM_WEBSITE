@@ -116,8 +116,39 @@ li {
 
 
 
+/* quick links */
+#mySidenav div {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  height:180px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
 
+#mySidenav div:hover {
+  left: 0;
+}
 
+#side-link {
+  top: 100px;
+  /* display: inline-block; */
+  background-color:#dddddd;
+}
+#side-link a{
+text-decoration:none;
+color:#0a043c;
+display: block;
+
+padding-bottom: 10px;
+}
+#side-link a:hover{
+  color:#8b5e83;
+}
 
 
 
