@@ -27,7 +27,7 @@ li {
 
 #navbar {
   background-color: black;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 #navbar-pg {
@@ -564,6 +564,10 @@ footer {
 /* ## RESEARCH CAROUSEL ## */
 /* ####################### */
 
-#admission-slider .card {
-  margin: 30px;
+#research-slider {
+  overflow: hidden;
+}
+
+#research-slider .card {
+  margin: 15px;
 }
