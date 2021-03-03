@@ -66,11 +66,12 @@
     }
 
     .viewMore {
-        height: 54px;
-        width: 145px !important;
+        height: 90px;
+        width: 95px !important;
         position: inherit;
         /* right: 100px; */
         /* border-radius: 50%; */
+        margin-right: 40px;
         border: 5px solid #ebd506;
         text-decoration: none;
     }
@@ -86,6 +87,25 @@
         background-color: white;
         color: #101820;
     }
+    .col-xs-12
+    {
+        flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+    }
+
+    .social-media
+    {
+         
+            flex: 1 0 0%;
+            display: inline-flex;
+            justify-content: center;
+            margin: auto;
+        }
+    
   }
 
   
