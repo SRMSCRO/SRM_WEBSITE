@@ -106,6 +106,25 @@
             margin: auto;
         }
     
+
+        .justify-content-end {
+            justify-content: center !important;
+        }
+
+        .nav-link {
+            display: table-footer-group;
+            padding: .5rem 1rem;
+            text-decoration: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        }
+    #heroCarousel
+    {
+        margin-top: 84%;
+    }
+    .vh80 {
+        height: 23vh;
+    }
+
   }
 
   
