@@ -591,21 +591,24 @@ li {
 
 
 
+/* ################ */
+/* ## QUICK INFO ## */
+/* ################ */
+
+#quick-info h3 {
+  display: inline;
+}
+
+
+
+
+
 
 
 
 /* ################# */
 /* ## CAMPUS LIFE ## */
 /* ################# */
-
-@media only screen and (max-width: 550px){
-  #quick-info h3 {
-    font-size: 20px;
-  }
-  #quick-info p {
-    font-size: 12px;
-  }
-}
 
 @media only screen and (max-width: 768px){
   #campus-life .card {
