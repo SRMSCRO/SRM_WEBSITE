@@ -20,6 +20,16 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+    $("#date-slider").owlCarousel({
+        items : 5,
+        itemsDesktop:[1199,4],
+        itemsDesktopSmall:[980,3],
+        itemsMobile : [600,1],
+        autoPlay:true
+    });
+});
+
 
 (function(d, m){
     var kommunicateSettings =

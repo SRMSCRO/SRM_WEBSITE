@@ -1,16 +1,15 @@
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+body{
   font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
- 
 
 .vh100 {
-  height: 117vh;
+  height: 100vh;
 }
 
 .vh80 {
-  height: 85vh;
+  height: 60vh;
 }
 
 .textLeft {
@@ -120,8 +119,8 @@ li {
   height:170px;
   border-radius: 0px 50% 50% 0px;
   padding: 20px;
-  top: 35%;
-  left: -10%;
+  top: 50%;
+  left: -150px;
   background-color:#fff;  
   box-shadow: 0px 0px 20px -10px #101820;
   z-index: 2;
@@ -162,8 +161,8 @@ li {
   position: absolute;
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
   padding: 20px;
-  top: 35%;
-  right: -24%;
+  top: 50%;
+  right: -370px;
   background-color: #212e3ba6;
   transition: 0.5s;
   z-index: 2;
@@ -290,7 +289,7 @@ li {
 
 .news-container-links>* {
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .news-container-links a {
@@ -315,74 +314,84 @@ li {
 /* ## EVENTS ## */
 /* ############ */
 
+#date-slider {
+  overflow-x: hidden;
+}
+
 .events{
   margin-top: 80px;
 }
 
 .outer-circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: #3e64ff;
-  margin-bottom: 30px;
-  position: relative;
-  left: 25px;
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  background-image: url('./Images/circle.svg');
+  width: 180px;
+  height: 180px;
+  background-size: cover;
 }
 
 .outer-circle h4 {
   padding:35px;
+  padding-top: 70px;
   text-align: center;
   color:#fff;
 }
 
-.rectangle {
-  width:170px;
-  height:180px;
-  background-color:#fff;
-  padding: 12px;
+.rect {
+  background-image: url('./Images/eventsShape.svg');
+  background-size: cover;
+  width:180px;
+  height:200px;
   text-align: center;
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  padding: 20px;
+  padding-top: 45px;
 }
 
-.rectangle a {
+.rect a {
   text-decoration: none;
   color: #3e64ff;
 }
 
-.rectangle .date {
-  margin-top: 25px;
+.rect .date {
+  margin-top: 15px;
   color: #666;
   font-size: 12px;
   font-weight: 700;
 }
 
 .outer-circle:hover {
-  background:#fff;
+  background-image: url('./Images/circleWhite.svg');
 }
 
 .outer-circle:hover h4 {
   color:#3e64ff;
 }
 
-.outer-circle:hover + .rectangle {
-  background:#3e64ff;
+.outer-circle:hover + .rect {
+  background-image: url('./Images/eventsShapeBlue.svg');
 }
 
-.outer-circle:hover + .rectangle h5 {
+.outer-circle:hover + .rect h5 {  
   color:#ffbe0f;
 }
 
-.rectangle:hover {
-  background:#3e64ff;
-}
-
-.rectangle:hover h5{
-  color:#ffbe0f;
-}
-
-.rectangle:hover h4,.rectangle:hover p{
+.outer-circle:hover + .rect .date {
   color:#fff;
+}
+
+.rect:hover {
+  background-image: url('./Images/eventsShapeBlue.svg');
+}
+
+.rect:hover h5{
+  color:#ffbe0f;
+}
+
+.rect:hover h4,.rect:hover p{
+  color:#fff;
+}
+
+.info {
+  font-size: 14px;
 }
 
 
@@ -447,6 +456,19 @@ li {
   border-radius: 50%;
   border: 5px solid #ebd506;
   text-decoration: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px){
+  .viewMore {
+    right: 5%;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .viewMore {
+    right: -100px;
+  }
 }
 
 .viewMore p {
@@ -474,9 +496,7 @@ li {
 /* ########### */
 
 .card {
-  height: 426px;
-  width: 292px;
-  border-radius: 26px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -531,6 +551,35 @@ li {
 
 .read-more:hover{
   color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ################# */
+/* ## CAMPUS LIFE ## */
+/* ################# */
+
+@media only screen and (max-width: 550px){
+  #quick-info h3 {
+    font-size: 20px;
+  }
+  #quick-info p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #campus-life .card {
+    margin: 0px 15% 20px 15%;
+  }
 }
 
 
@@ -636,9 +685,34 @@ footer {
   border: 5px solid #ebd506;
   margin: 5px;
   padding: 10px;
+  height: 55px;
   font-weight: 800;
   color: #ebd506;
 }
+
+@media only screen and (max-width: 768px){
+  #academics .card {
+    margin: 0px 15% 20px 15%;
+  }
+}
+
+@media only screen and (max-width: 1199px){
+  #academics .deptBtn {
+    height: 75px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  #academics .deptBtn {
+    height: 55px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+
+
+
 
 
 
@@ -657,21 +731,3 @@ footer {
 #research-slider .card {
   margin: 15px;
 }
-
-
-
- 
-@media (max-width: 575.98px) { 
-  .justify-content-end
-   {
-    justify-content: center;
-}
-
-}
-
- 
-@media (max-width: 767.98px) { ... }
-
- @media (max-width: 991.98px) { ... }
-
- @media (max-width: 1199.98px) { ... }
