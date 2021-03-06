@@ -9,7 +9,7 @@ body{
 }
 
 .vh80 {
-  height: 60vh;
+  height: 70vh;
 }
 
 .textLeft {
@@ -32,11 +32,12 @@ li {
 /* ############ */
 
 .navbar {
-  background-color: #101820;
+  background: linear-gradient(to bottom, #101820 0%, #10182022 100%);
   position: absolute;
   top: 0px;
   width: 100%;
   z-index: 1;
+  padding: 0px;
 }
 
 .navbar-brand img {
@@ -272,13 +273,16 @@ li {
 /* ########## */
 /* ## NEWS ## */
 /* ########## */
-.xx
-{
-  
-  padding-top: 1rem;
+
+.news-heading {
+  padding: 5px 20px;
+  border-radius: 30px;
+  display: inline;
+  background-color: #10182088;
 }
+
 .news-container {
-  height: 200px;
+  height: 260px;
   background-color: #fff;
 }
 
@@ -538,9 +542,19 @@ li {
   overflow: hidden;
 }
 
-.card-img-top{
-  overflow: hidden;
+.coverImg {
   z-index: 0;
+  overflow: hidden;
+}
+
+.card-img-top{
+  transition: all 200ms ease;
+}
+
+.card:hover .card-img-top{
+  overflow: hidden;
+  transform: scale(1.2);
+  transition: all 400ms ease;
 }
 
 .card-title{
