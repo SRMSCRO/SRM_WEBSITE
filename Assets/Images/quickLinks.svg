@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="377.54" height="481" viewBox="0 0 377.54 481">
+  <defs>
+    <filter id="Path_9" x="155" y="90.722" width="222.54" height="273.099" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#080a0c" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_63" x="0" y="0" width="304" height="481" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#080a0c" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_16_7" data-name="Component 16 – 7" transform="translate(20 20)">
+    <g transform="matrix(1, 0, 0, 1, -20, -20)" filter="url(#Path_9)">
+      <path id="Path_9-2" data-name="Path 9" d="M50.5-49.278c27.89,0,112.04,71.888,112.04,99.778S78.39,163.821,50.5,163.821,0,78.39,0,50.5,22.61-49.278,50.5-49.278Z" transform="translate(175 160)" fill="#fff"/>
+    </g>
+    <text id="Quick_Links" data-name="Quick 
+Links" transform="translate(278 189)" fill="#005fcc" font-size="18" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="-29.7" y="0">Quick </tspan><tspan x="-24.363" y="22">Links</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -20, -20)" filter="url(#Rectangle_63)">
+      <rect id="Rectangle_63-2" data-name="Rectangle 63" width="244" height="421" rx="20" transform="translate(20 20)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

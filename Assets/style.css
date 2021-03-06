@@ -31,7 +31,7 @@ li {
 /* ## NAVBAR ## */
 /* ############ */
 
-#navbar {
+.navbar {
   background-color: #101820dc;
   position: absolute;
   top: 0px;
@@ -39,18 +39,26 @@ li {
   z-index: 1;
 }
 
+.navbar-brand img {
+  height: 100px;
+}
+
+#navbarSupportedContent{
+  flex-direction: column;
+}
+
 
 
 /* FIRST NAV */
 
 .navbar-pg {
-  margin-top: 15px;
+  margin-top: 10px;
+  padding: 0;
 }
 
 .navbar-pg li {
   border-right: 3px solid #ddd;
   border-radius: 3px;
-  padding: 0px 5px 0px 5px;
 }
 
 .navbar-pg li:last-child{
@@ -59,7 +67,7 @@ li {
 
 .navbar-pg a{
   color :#ffe227;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .navbar-pg a:hover {
@@ -70,18 +78,22 @@ li {
 /* SECOND NAV */
 
 .navbar-next {  
-  margin-top: 0px;
+  margin: 0px;
 }
 
 .navbar-next li {
-  padding-left: 15px;
+  padding-left: 5px;
 }
 
 .navbar-next a {
   text-decoration: none;
   color: #fff;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   position: relative;
+}
+
+.navbar-next .form-control {
+  width: 200px;
 }
 
 .navbar-next a:after {
@@ -102,6 +114,21 @@ li {
   left: 20%;
 }
 
+@media only screen and (max-width: 1199px){
+  .navbar-pg {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  .navbar-pg li {
+    margin: 3px;
+  }
+  .navbar-next li {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 2px;
+  }
+}
+
 
 
 
@@ -114,15 +141,15 @@ li {
 /* ################# */
 
 #quick-links {
+  background-image: url('./Images/quickLinks.svg');
+  background-size: cover;
   position: fixed;
-  width: 200px;
-  height:170px;
-  border-radius: 0px 50% 50% 0px;
+  width: 210px;
+  height:250px;
   padding: 20px;
+  padding-top: 50px;
   top: 50%;
   left: -150px;
-  background-color:#fff;  
-  box-shadow: 0px 0px 20px -10px #101820;
   z-index: 2;
   transition: 0.3s;
 }
@@ -135,7 +162,7 @@ li {
   text-decoration:none;
   color:#101820;
   display: block;
-  line-height: 2.1;
+  line-height: 2.5;
 }
 
 #quick-links a:hover{
@@ -217,6 +244,10 @@ li {
 /* #################### */
 /* ## HERO CARAOUSEL ## */
 /* #################### */
+
+#heroCarousel img {
+  height: 75vh;
+}
 
 .clippedImgContainer {
   clip-path: polygon(0 0, 100% 0%, 100% 72%, 50% 100%, 0 72%);
