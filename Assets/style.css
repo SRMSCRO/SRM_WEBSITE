@@ -48,6 +48,39 @@ li {
   flex-direction: column;
 }
 
+.searchIcon {
+  position: relative;
+  right: -20px;
+  bottom: -5px;
+  color: #fff;
+}
+
+.search-nav {
+  transform: translateY(30%);
+  margin-right: 10px;
+  width: 150px;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: #00000000;
+  background-position: 10px 10px; 
+  color: #eee;
+}
+
+.search-nav::placeholder {
+  color: #ddd;
+}
+
+.search-nav:focus {
+  outline: none;
+  color: #ddd;
+  text-decoration: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button{
+  -webkit-appearance:none;
+}
+
 
 
 /* FIRST NAV */
@@ -282,7 +315,7 @@ li {
 }
 
 .news-container {
-  height: 260px;
+  height: 200px;
   background-color: #fff;
 }
 
