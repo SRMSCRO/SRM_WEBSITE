@@ -32,7 +32,7 @@ li {
 /* ############ */
 
 .navbar {
-  background-color: #101820dc;
+  background-color: #101820;
   position: absolute;
   top: 0px;
   width: 100%;
@@ -66,7 +66,7 @@ li {
 }
 
 .navbar-pg a{
-  color :#ffe227;
+  color :#ebd506;
   font-size: 0.8rem;
 }
 
@@ -104,7 +104,7 @@ li {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #ffe227;
+  background: #ebd506;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -166,7 +166,7 @@ li {
 }
 
 #quick-links a:hover{
-  color:#3e64ff;
+  color:#005fcc;
 }
 
 #quick-links a i {
@@ -188,7 +188,7 @@ li {
   position: absolute;
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
   padding: 20px;
-  top: 50%;
+  top: 35%;
   right: -370px;
   background-color: #212e3ba6;
   transition: 0.5s;
@@ -284,7 +284,7 @@ li {
 
 .news-container-blueTop {
   height: 20px;
-  background-color: #2f77be;
+  background-color: #005fcc;
   margin-bottom: 20px;
 }
 
@@ -337,7 +337,7 @@ li {
 }
 
 .news-container-links .fa-link {
-  color: #2f77be;
+  color: #005fcc;
   font-size: 20px;
 }
 
@@ -386,7 +386,7 @@ li {
 
 .rect a {
   text-decoration: none;
-  color: #3e64ff;
+  color: #005fcc;
 }
 
 .rect .date {
@@ -401,7 +401,7 @@ li {
 }
 
 .outer-circle:hover h4 {
-  color:#3e64ff;
+  color:#005fcc;
 }
 
 .outer-circle:hover + .rect {
@@ -409,7 +409,7 @@ li {
 }
 
 .outer-circle:hover + .rect h5 {  
-  color:#ffbe0f;
+  color:#ebd506;
 }
 
 .outer-circle:hover + .rect .date {
@@ -421,7 +421,7 @@ li {
 }
 
 .rect:hover h5{
-  color:#ffbe0f;
+  color:#ebd506;
 }
 
 .rect:hover h4,.rect:hover p{
@@ -545,6 +545,7 @@ li {
 
 .card-title{
   font-weight: 700;
+  text-align:center;
   color: #7e7306;
 }
 
@@ -553,6 +554,7 @@ li {
 }
 
 .card-text {
+  text-align: center;
   font-size: 0.8rem;
 }
 
@@ -644,7 +646,7 @@ li {
 }
 
 .admissnBtn {
-  text-align: left;
+  text-align: center;
   padding: 20px;
   height: 100px;
   width: 250px;
