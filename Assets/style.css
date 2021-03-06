@@ -246,7 +246,7 @@ li {
 /* #################### */
 
 #heroCarousel img {
-  height: 75vh;
+  height: 90vh;
 }
 
 .clippedImgContainer {
@@ -259,7 +259,10 @@ li {
   background-color: #101820;
 }
 
-
+.carousel-item
+{
+  width:100%;
+}
 
 
 
@@ -269,7 +272,11 @@ li {
 /* ########## */
 /* ## NEWS ## */
 /* ########## */
-
+.xx
+{
+  
+  padding-top: 1rem;
+}
 .news-container {
   height: 200px;
   background-color: #fff;
