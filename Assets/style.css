@@ -182,7 +182,7 @@ input[type="search"]::-webkit-search-cancel-button{
   height:250px;
   padding: 20px;
   padding-top: 50px;
-  top: 50%;
+  top: 35%;
   left: -150px;
   z-index: 2;
   transition: 0.3s;
@@ -312,9 +312,14 @@ input[type="search"]::-webkit-search-cancel-button{
   border-radius: 30px;
   display: inline;
   background-color: #10182088;
+  color:#fff;
+  position :relative;
+  z-index:1;
 }
 
 .news-container {
+  position :relative;
+  z-index:1;
   height: 200px;
   background-color: #fff;
 }
