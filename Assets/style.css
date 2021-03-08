@@ -597,7 +597,6 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .card-title{
   font-weight: 700;
-  text-align:center;
   color: #7e7306;
 }
 
@@ -606,7 +605,6 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .card-text {
-  text-align: center;
   font-size: 0.8rem;
 }
 
@@ -658,6 +656,15 @@ input[type="search"]::-webkit-search-cancel-button{
 
 #quick-info h3 {
   display: inline;
+}
+
+@media only screen and (max-width: 768px){
+  #quick-info h3{
+    font-size: 20px;
+  }
+  #quick-info p{
+    font-size: 13px;
+  }
 }
 
 
