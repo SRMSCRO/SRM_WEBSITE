@@ -714,6 +714,14 @@ input[type="search"]::-webkit-search-cancel-button{
   background-color: white;
   color: #101820;
 }
+.admissnBtn a
+{
+  text-decoration: none;
+  color: #101820;
+}
+.ad{
+  margin-left:20%;
+}
 
 
 
