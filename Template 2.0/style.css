@@ -1,11 +1,17 @@
 /* navbar */
 .navbar{
-    background: linear-gradient(to bottom, #101820 0%, #10182022 100%);
-    color:#fff;
+  background-color:1% #000;
+    
+    
+}
+.nav-logo{
+  height: 80px;
+  margin-right: 100px;
 }
 .nav-bar
 {
     margin-left:50px;
+    color:#fff;
 }
 .top
 {
