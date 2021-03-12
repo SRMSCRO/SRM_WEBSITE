@@ -11,6 +11,60 @@
 {
     margin-right: 70px;
 }
+
+/* Important Links Start */
+#imp-links {
+  position: fixed;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
+  padding: 20px;
+  top: 35%;
+  right: -24%;
+  background-color: #212e3ba6;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+#imp-links:hover {
+  right: 0;
+}
+
+#imp-links a{
+  text-decoration:none;
+  color:#ccc;
+  display: block;
+  line-height: 2.1;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  background-color: #212e3ba6;
+  padding: 0px 15px;
+}
+
+#imp-links a:hover{
+  color:#fff;
+  background-color: #101820b2;
+}
+
+#imp-links a i {
+  margin-right: 10px;
+}
+
+.imp-adm-btn a {
+  padding: 5px;
+  height: 50px;
+  width: 150px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #212e3ba6;
+  color: #fff;
+}
+
+.imp-adm-btn:hover {
+  cursor: pointer;
+}
+
+/* Important Links End */
+
 /* ################# */
 /* ## QUICK LINKS ## */
 /* ################# */
