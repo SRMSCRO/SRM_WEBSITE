@@ -11,6 +11,43 @@
 {
     margin-right: 70px;
 }
+/* ################# */
+/* ## QUICK LINKS ## */
+/* ################# */
+
+#quick-links {
+  background-image: url('quickLinks.svg');
+  background-size: cover;
+  position: fixed;
+  width: 210px;
+  height:250px;
+  padding: 20px;
+  padding-top: 50px;
+  top: 35%;
+  left: -150px;
+  z-index: 2;
+  transition: 0.3s;
+}
+
+#quick-links:hover {
+  left: 0;
+}
+
+#quick-links a{
+  text-decoration:none;
+  color:#101820;
+  display: block;
+  line-height: 2.5;
+}
+
+#quick-links a:hover{
+  color:#005fcc;
+}
+
+#quick-links a i {
+  margin-right: 10px;
+}
+
 /* Banner Start*/
 
 .banner{
