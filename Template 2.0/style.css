@@ -18,8 +18,35 @@
     width: 100%;
     box-shadow: 0px 3px 0px #005FCC66;
 }
-
 /* Banner End */
+/* side section */
+.side-section
+{
+  margin-left:80px;
+  margin-top: 50px;
+}
+.side-bar
+{
+  clip-path: polygon(0% 0%, 75% 0%, 83% 47%, 75% 100%, 0% 100%);
+  background-color: rgb(225,225,255);
+  display:fixed;
+  height:50px;
+  width:400px;
+  margin-bottom:5px;
+ 
+}
+.side-text
+{
+ 
+  margin-left: 50px;
+  color:#191970;
+  font-size: 1.1rem;
+}
+/* center section */
+.main-txt
+{
+  display: inline-block;
+}
 
 /* ############ */
 /* ## FOOTER ## */
