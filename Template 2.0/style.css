@@ -37,7 +37,6 @@
 }
 .side-text
 {
- 
   margin-left: 50px;
   color:#191970;
   font-size: 1.1rem;
@@ -46,8 +45,16 @@
 .main-txt
 {
   display: inline-block;
+  margin-top:50px;
 }
-
+.txt-news-title
+{
+  color:#4682B4;
+}
+.txt-news-para
+{
+  font-size: 1rem;
+}
 /* ############ */
 /* ## FOOTER ## */
 /* ############ */
