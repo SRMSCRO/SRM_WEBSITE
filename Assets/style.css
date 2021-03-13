@@ -320,7 +320,7 @@ input[type="search"]::-webkit-search-cancel-button{
 .news-container {
   position :relative;
   z-index:1;
-  height: 200px;
+  height:auto;
   background-color: #fff;
 }
 
@@ -737,6 +737,7 @@ input[type="search"]::-webkit-search-cancel-button{
    align-items: centre;
   }
 }
+
 @media screen and (min-width: 768px) {
   .ad {
     margin-left: 20%;
