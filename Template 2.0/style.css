@@ -1,3 +1,6 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* ############ */
 /* ## navbar ## */
@@ -157,16 +160,18 @@
 
 .side-bar {
   clip-path: polygon(0% 0%, 75% 0%, 83% 47%, 75% 100%, 0% 100%);
-  background-color: rgb(225,225,255);
+  background-color: #50a8c9;
+  color: #fff;
+  border: 0px;
   display:fixed;
   height:50px;
   width:200px;
-  padding-right: 50px;
+  padding-left: 30px;
   margin-bottom:5px;
- 
+  text-align: left;
 }
-.side-text
-{
+
+.side-text{
   margin-left: 10px;
   color:#191970;
   font-size: 1.1rem;
@@ -181,17 +186,13 @@
 /* ## center section ## */
 /* #################### */
 
-.main-txt {
-  display: inline-block;
-  margin-top:50px;
-}
-
 .txt-news-title {
   color:#4682B4;
 }
 
 .txt-news-para {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 
