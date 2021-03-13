@@ -128,15 +128,17 @@
   background-color: rgb(225,225,255);
   display:fixed;
   height:50px;
-  width:400px;
+  width:200px;
+  padding-right: 50px;
   margin-bottom:5px;
  
 }
 .side-text
 {
-  margin-left: 50px;
+  margin-left: 10px;
   color:#191970;
   font-size: 1.1rem;
+  padding-top: 10px;
 }
 /* center section */
 .main-txt
