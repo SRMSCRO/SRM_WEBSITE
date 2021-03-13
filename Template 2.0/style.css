@@ -202,11 +202,6 @@ footer {
     text-align: center;
   }
   
-  
-  
-  
-  
-
 
 
 
@@ -218,8 +213,8 @@ footer {
 /* ## RECT CARD ## */
 /* ############### */
 
-.cardBox{
-  /* margin: 20px; */
+.cardBox, .cardBoxImg{
+  margin: 20px;
   padding: 20px;
   padding-top: 0px;
   background-color: #fff;
@@ -227,7 +222,7 @@ footer {
   text-align: center;
 }
 
-.cardBox::before{
+.cardBox::before, .cardBoxImg::before{
   content: '24 Feb';
   text-align: center;
   display: block;
@@ -240,12 +235,12 @@ footer {
   padding: 10px;
 }
 
-.cardBox h6 {
+.cardBox h6, .cardBoxImg h6 {
   margin-top: 20px;
   color: #372c5a;
 }
 
-.cardBox p {
+.cardBox p , .cardBoxImg p{
   font-size: 14px;
   color: #aaa;
 }
@@ -262,4 +257,35 @@ footer {
 
 .cardBox .fa:hover{
   background-color: #372c5a;
+}
+
+
+
+
+
+
+
+
+/* ######################## */
+/* ## RECT CARD WITH IMG ## */
+/* ######################## */
+
+.cardBoxImg {
+  margin-left: 0px;
+}
+
+.cardBoxImg::before {
+  content: "";
+}
+
+.cardBoxSideImg {
+  width: 80%;
+  height: 80%;
+  margin-top: 20px;
+}
+
+.cardBoxImgContainer {
+  margin-right: 0px;
+  padding-right: 0px;
+
 }
