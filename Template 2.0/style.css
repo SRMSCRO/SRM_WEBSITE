@@ -206,3 +206,60 @@ footer {
   
   
   
+
+
+
+
+
+
+
+
+/* ############### */
+/* ## RECT CARD ## */
+/* ############### */
+
+.cardBox{
+  /* margin: 20px; */
+  padding: 20px;
+  padding-top: 0px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px rgba(8, 10, 12, 0.1);
+  text-align: center;
+}
+
+.cardBox::before{
+  content: '24 Feb';
+  text-align: center;
+  display: block;
+  width: 120px;
+  position: relative;
+  left: calc(50% - 50px);
+  background: #50a8c9;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.cardBox h6 {
+  margin-top: 20px;
+  color: #372c5a;
+}
+
+.cardBox p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.cardBox .fa {
+  text-decoration: none;
+  padding: 10px;
+  width: 35px;
+  margin: 2px;
+  background-color: #50a8c9;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.cardBox .fa:hover{
+  background-color: #372c5a;
+}
