@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 /* ############ */
@@ -7,7 +8,7 @@ body {
 /* ############ */
 
 .navbar{
-  background: linear-gradient(to bottom, #101820 0%, #10182022 100%) !important;
+  background: linear-gradient(to bottom, #101820 0%, #10182000 100%) !important;
   position: absolute;
   top: 0px;
   width: 100%;
@@ -26,6 +27,11 @@ body {
 
 .top {
   margin-right: 70px;
+}
+
+.dropdown-menu-dark {
+  background-color: #101820a6;
+  font-size: 0.9rem;
 }
 
 
@@ -97,7 +103,7 @@ body {
 /* ################# */
 
 #quick-links {
-  background-image: url('quickLinks.svg');
+  background-image: url('./Images/quickLinks.svg');
   background-size: cover;
   position: fixed;
   width: 210px;
@@ -159,7 +165,7 @@ body {
 }
 
 .side-bar {
-  clip-path: polygon(0% 0%, 75% 0%, 83% 47%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 90% 50%, 75% 100%, 0% 100%);
   background-color: #50a8c9;
   color: #fff;
   border: 0px;
@@ -171,11 +177,17 @@ body {
   text-align: left;
 }
 
-.side-text{
-  margin-left: 10px;
-  color:#191970;
-  font-size: 1.1rem;
-  padding-top: 10px;
+@media only screen and (max-width: 992px){
+  .side-bar {
+    width:100px;
+    height: 40px;
+    font-size: 0.8rem;
+    padding-left: 10px;
+  }
+}
+
+.tab-pane {
+  margin: 10px;
 }
 
 
@@ -193,6 +205,7 @@ body {
 .txt-news-para {
   font-size: 0.9rem;
   color: #666;
+  text-align: justify;
 }
 
 
@@ -260,7 +273,7 @@ footer {
 /* ############### */
 
 .cardBox, .cardBoxImg{
-  margin: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   padding-top: 0px;
   background-color: #fff;
@@ -325,10 +338,17 @@ footer {
 .cardBoxSideImg {
   width: 80%;
   height: 80%;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .cardBoxImgContainer {
   margin-right: 0px;
   padding-right: 0px;
+}
+
+@media only screen and (max-width: 768px){
+  .cardBoxSideImg{
+    display: none;
+    position: absolute;
+  }
 }
