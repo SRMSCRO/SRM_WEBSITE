@@ -1,6 +1,6 @@
 body, html {
   font-family: 'Montserrat', sans-serif;
-  /* width: 100vw; */
+  width: 100vw;
   overflow-x: auto;
 }
 
@@ -200,7 +200,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 #quick-links a:hover{
-  color:#005fcc;
+  color:#2f77be;
 }
 
 #quick-links a i {
@@ -223,7 +223,7 @@ input[type="search"]::-webkit-search-cancel-button{
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
   padding: 20px;
   top: 35%;
-  right: -260px;
+  right: -360px;
   background-color: #212e3ba6;
   transition: 0.5s;
   z-index: 2;
@@ -326,7 +326,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .news-container-blueTop {
   height: 20px;
-  background-color: #005fcc;
+  background-color: #2f77be;
   margin-bottom: 20px;
 }
 
@@ -379,7 +379,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .news-container-links .fa-link {
-  color: #005fcc;
+  color: #2f77be;
   font-size: 20px;
 }
 
@@ -428,7 +428,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .rect a {
   text-decoration: none;
-  color: #005fcc;
+  color: #2f77be;
 }
 
 .rect .date {
@@ -443,7 +443,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .outer-circle:hover h4 {
-  color:#005fcc;
+  color:#2f77be;
 }
 
 .outer-circle:hover + .rect {
@@ -792,12 +792,12 @@ footer {
 /* ############### */
 
 .deptBtn {
-  border: 5px solid #ebd506;
+  border: 5px solid #2f77be;
   margin: 5px;
   padding: 10px;
   height: 55px;
   font-weight: 800;
-  color: #ebd506;
+  color: #2f77be;
 }
 
 @media only screen and (max-width: 768px){
