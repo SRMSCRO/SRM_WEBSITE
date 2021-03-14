@@ -282,7 +282,12 @@ input[type="search"]::-webkit-search-cancel-button{
 /* #################### */
 
 #heroCarousel img {
-  height: 90vh;
+  height: 100vh;
+}
+@media only screen and (max-width: 576px){
+  #heroCarousel img {
+    height: 50vh;
+  }
 }
 
 .clippedImgContainer {
@@ -320,7 +325,26 @@ input[type="search"]::-webkit-search-cancel-button{
   position :relative;
   z-index:1;
 }
-
+@media only screen and (max-width: 576px){
+  .news-heading {
+    font-size: 1rem;
+    position :relative;
+    z-index:1;
+    top:-16rem;
+    
+  }
+  .news-container {
+    position :relative;
+    top:-16rem;
+    z-index:1;
+    height: 200px;
+    background-color: #fff;
+  }
+  .news-container-links{
+    display:none;
+  }
+  
+}
 .news-container {
   position :relative;
   z-index:1;
