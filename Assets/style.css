@@ -19,7 +19,9 @@ body, html {
 li {
   margin-bottom: 30px;
 }
-
+h5{
+  color: #DA1C07;
+}
 
 
 
@@ -100,7 +102,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .navbar-pg a{
-  color :#ebd506;
+  color :#FFD700;
   font-size: 0.8rem;
 }
 
@@ -138,7 +140,7 @@ input[type="search"]::-webkit-search-cancel-button{
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #ebd506;
+  background: #FFD700;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -200,7 +202,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 #quick-links a:hover{
-  color:#2f77be;
+  color:#005FCC;
 }
 
 #quick-links a i {
@@ -296,6 +298,8 @@ input[type="search"]::-webkit-search-cancel-button{
 .carousel-item
 {
   width:100%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
@@ -326,7 +330,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .news-container-blueTop {
   height: 20px;
-  background-color: #2f77be;
+  background-color: #005FCC;
   margin-bottom: 20px;
 }
 
@@ -360,7 +364,7 @@ input[type="search"]::-webkit-search-cancel-button{
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  color: #77a4d1;
+  color: #005FCC;
 }
 
 #news-slider .card::before{
@@ -379,7 +383,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .news-container-links .fa-link {
-  color: #2f77be;
+  color: #005FCC;
   font-size: 20px;
 }
 
@@ -428,7 +432,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .rect a {
   text-decoration: none;
-  color: #2f77be;
+  color: #005FCC;
 }
 
 .rect .date {
@@ -443,7 +447,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .outer-circle:hover h4 {
-  color:#2f77be;
+  color:#005FCC;
 }
 
 .outer-circle:hover + .rect {
@@ -451,7 +455,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .outer-circle:hover + .rect h5 {  
-  color:#ebd506;
+  color:#FFD700;
 }
 
 .outer-circle:hover + .rect .date {
@@ -463,7 +467,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .rect:hover h5{
-  color:#ebd506;
+  color:#FFD700;
 }
 
 .rect:hover h4,.rect:hover p{
@@ -507,7 +511,7 @@ input[type="search"]::-webkit-search-cancel-button{
 /* ############# */
 
 .heading {
-  color: #2f77be;
+  color: #005FCC;
   font-weight: 700;
   text-align: center;
 }
@@ -525,7 +529,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .underline-red {
-  background-color: rgb(221, 52, 52);
+  background-color: #DA1C07;
 }
 
 .viewMore {
@@ -534,7 +538,7 @@ input[type="search"]::-webkit-search-cancel-button{
   position: absolute;
   right: 100px;
   border-radius: 50%;
-  border: 5px solid #ebd506;
+  border: 5px solid #FFD700;
   text-decoration: none;
   text-align: center;
 }
@@ -558,7 +562,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .viewMore:hover {
-  background-color: #ebd506;
+  background-color: #FFD700;
   color: #fff;
   cursor: pointer;
   transition: all 0.2s ease-out;
@@ -586,6 +590,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .card-img-top{
+  height: 140px;
   transition: all 200ms ease;
 }
 
@@ -597,7 +602,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .card-title{
   font-weight: 700;
-  color: #7e7306;
+  color: #DA1C07;
 }
 
 .card-body {
@@ -614,10 +619,10 @@ input[type="search"]::-webkit-search-cancel-button{
   position: absolute;
   bottom: -40px;
   right: -40px;
-  background: #ebd506;
+  background: #FFD700;
   height: 120px;
   width: 120px;
-  border-radius: 50%;
+  border-radius: 80%;
   transform: scale(1);
   transition: transform 0.25s ease-out;
 }
@@ -627,7 +632,11 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .card:hover .card-text{
-  color: #fff
+  color: #005FCC;
+  font-weight: 600;
+}
+.card:hover .card-title{
+  color: #005FCC;
 }
 
 .read-more {
@@ -636,11 +645,11 @@ input[type="search"]::-webkit-search-cancel-button{
   right: 15px;
   line-height: 1rem;
   text-decoration: none;
-  color: #7e7306;
+  color: #000000;
 }
 
 .read-more:hover{
-  color: #fff;
+  color: #ffffff;
 }
 
 
@@ -796,12 +805,12 @@ footer {
 /* ############### */
 
 .deptBtn {
-  border: 5px solid #2f77be;
+  border: 5px solid #005FCC;
   margin: 5px;
   padding: 10px;
   height: 55px;
   font-weight: 800;
-  color: #2f77be;
+  color: #005FCC;
 }
 
 @media only screen and (max-width: 767px){
