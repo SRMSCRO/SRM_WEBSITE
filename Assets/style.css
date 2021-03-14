@@ -1,7 +1,7 @@
 body, html {
   font-family: 'Montserrat', sans-serif;
   width: 100vw;
-  
+  overflow-x: hidden;
 }
 
 .vh100 {
@@ -41,7 +41,7 @@ li {
 }
 
 .navbar-brand img {
-  height: 100px;
+  height: 80px;
 }
 
 #navbarSupportedContent{
@@ -531,7 +531,7 @@ input[type="search"]::-webkit-search-cancel-button{
 .viewMore {
   height: 90px;
   width: 90px !important;
-  position:absolute;
+  position: absolute;
   right: 100px;
   border-radius: 50%;
   border: 5px solid #ebd506;
@@ -547,20 +547,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 @media only screen and (max-width: 576px){
   .viewMore {
-    height: 60px;
-  width: 60px !important;
-  border-radius: 50%;
-  border: 5px solid #ebd506;
-  text-decoration: none;
-  text-align: center;
-  }
-}
-@media only screen and (max-width: 576px)
-{
-  .viewMore p {
-    margin: 4px;
-    margin-top: 40px;
-    font-weight: 500;
+    right: -100px;
   }
 }
 
@@ -732,10 +719,8 @@ input[type="search"]::-webkit-search-cancel-button{
   text-decoration: none;
   color: #101820;
 }
-@media screen and (max-width: 768px) {
-  .ad {
-   align-items: centre;
-  }
+.ad{
+  margin-left:20%;
 }
 @media screen and (min-width: 556px) {
   .ad {
@@ -819,7 +804,7 @@ footer {
   color: #2f77be;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
   #academics .card {
     margin: 0px 15% 20px 15%;
   }
