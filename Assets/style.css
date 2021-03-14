@@ -426,6 +426,12 @@ input[type="search"]::-webkit-search-cancel-button{
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 576px){
+  .events {
+    position :relative;
+    top:-16rem;
+  }
+}
 .events{
   margin-top: 80px;
 }
