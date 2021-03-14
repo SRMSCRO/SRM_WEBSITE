@@ -538,6 +538,7 @@ input[type="search"]::-webkit-search-cancel-button{
   color: #005FCC;
   font-weight: 700;
   text-align: center;
+ 
 }
 
 .sub-heading {
@@ -550,11 +551,34 @@ input[type="search"]::-webkit-search-cancel-button{
   width: 200px !important;
   margin: auto;
   margin-bottom: 80px;
+ 
+  
 }
+@media only screen and (min-width: 1440px){
 
+   .heading{
+    margin-left: 100px;
+    text-align: center;
+   }
+   .sub-heading {
+   
+    margin-left: 100px;
+  }
+  .underline {
+    margin-left: 650px;
+  }
+
+.line{
+  margin-left:550px;
+}
+.line-ad{
+  margin-left:620px;
+}
+}
 .underline-red {
   background-color: #DA1C07;
 }
+
 
 .viewMore {
   height: 90px;
