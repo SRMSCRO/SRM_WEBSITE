@@ -551,7 +551,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 @media only screen and (max-width: 576px){
   .viewMore {
-    right: -100px;
+    display:none;
   }
 }
 
@@ -728,10 +728,13 @@ input[type="search"]::-webkit-search-cancel-button{
   text-decoration: none;
   color: #101820;
 }
-.ad{
-  margin-left:20%;
+@media screen and (max-width: 768px) {
+  .ad {
+   align-items:center;
+  }
 }
-@media screen and (min-width: 556px) {
+
+@media screen and (min-width: 768px) {
   .ad {
     margin-left: 20%;
   }
