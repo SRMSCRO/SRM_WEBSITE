@@ -876,6 +876,9 @@ footer {
   color: #005FCC;
 }
 
+
+
+
 @media only screen and (max-width: 767px){
   #academics .card {
     margin: 0px 15% 20px 15%;
@@ -890,7 +893,7 @@ footer {
 
 @media only screen and (max-width: 767px){
   #academics .deptBtn {
-    height: 55px;
+    height: 65px;
     width: 60%;
     margin: auto;
     margin-bottom: 10px;
