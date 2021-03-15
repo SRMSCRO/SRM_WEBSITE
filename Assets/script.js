@@ -1,3 +1,8 @@
+//preloader
+var preloader = document.getElementById('loading');
+
+
+
 // CHATBOT
 (function(d, m){
     var kommunicateSettings =
