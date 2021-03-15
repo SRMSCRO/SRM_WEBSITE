@@ -176,6 +176,22 @@ body {
   line-height: 0.9rem;
 }
 
+
+.side-bar1 {
+  clip-path: polygon(0% 0%, 85% 0%, 90% 50%, 85% 100%, 0% 100%);
+  background-color: #005fcc;
+  color: #fff;
+  border: 0px;
+  display:fixed;
+  height:35px;
+  width:250px;
+  padding-left: 20px;
+  margin-bottom:5px;
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+
 span
 {
   color: #DA1C07;
@@ -190,6 +206,14 @@ span
 @media only screen and (max-width: 992px){
   .side-bar {
     width:150px;
+    height: 40px;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    margin-left: 25px;
+  }
+
+  .side-bar1 {
+    width:150%;
     height: 40px;
     font-size: 0.8rem;
     padding-left: 10px;
@@ -216,6 +240,12 @@ span
   border-radius: 10px;
   margin-left: -40px;
   font-size: 10px;
+}
+
+.txt-news-title h4 
+{
+  font-size: 12px;
+  margin-left: 50px;
 }
 }
 
