@@ -305,6 +305,12 @@ footer {
   text-align: center;
 }
 
+.cardBox
+{
+  height: 90%;
+
+}
+
 .cardBox::before, .cardBoxImg::before{
   content: '24 Feb';
   text-align: center;
@@ -321,6 +327,11 @@ footer {
 .cardBox h6, .cardBoxImg h6 {
   margin-top: 20px;
   color: #372c5a;
+}
+
+.cardBox h6
+{
+  font-size: 20px;
 }
 
 .cardBox p , .cardBoxImg p{
@@ -370,7 +381,7 @@ footer {
   padding-right: 0px;
 }
 
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 576px){
   .cardBoxSideImg{
     display: none;
     position: absolute;
