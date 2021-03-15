@@ -375,6 +375,7 @@ footer {
 
 .cardBoxImg {
   margin-left: 0px;
+  height: 80%;
 }
 
 .cardBoxImg::before {
@@ -410,6 +411,23 @@ footer {
 }
 
 .cardBox p 
+{
+
+  font-size: 20px;
+}
+
+.cardBoxImg
+{
+  width: 120%;
+
+}
+
+.cardBoxImg h6 
+{
+  font-size: 20px;
+}
+
+.cardBoxImg p 
 {
 
   font-size: 20px;
