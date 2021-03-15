@@ -31,8 +31,15 @@
   <title>SRM Website</title>
 </head>
 
-<body>
+<body onload="myFunction()">
 
+
+  <div id="loading"><div class="logo logo_body">
+    <h2>SRM IST</h2>
+    <img src="./Assets/Images/srm_logo.png " alt="logo">
+</div>
+<div class="progressbar"></div>
+</div>
 
 
   <!-- NAVBAR -->
@@ -718,6 +725,14 @@
     </div>
 
   </footer>
+  <script>
+	
+		var preloader = document.getElementById("loading");
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
 
 </body>
 
