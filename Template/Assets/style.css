@@ -146,9 +146,10 @@ body {
 /* ############ */
 
 .banner{
-    height:500px;
+    height:90vh;
     width: 100%;
     box-shadow: 0px 3px 0px #005FCC66;
+    
 }
 
 
@@ -308,6 +309,7 @@ footer {
 .cardBox
 {
   height: 90%;
+  margin-top: 50px;
 
 }
 
@@ -386,4 +388,22 @@ footer {
     display: none;
     position: absolute;
   }
+
+.cardBox
+{
+  width: 120%;
+
+}
+
+.cardBox h6 
+{
+  font-size: 20px;
+}
+
+.cardBox p 
+{
+
+  font-size: 20px;
+}
+
 }
